@@ -1,0 +1,10 @@
+<suite name="UsersSuite">
+    <test name="UsersTest">
+        <classes>
+            <class name="tests.GetUser"/>
+            <class name="tests.EditUser"/>
+            <class name="tests.CreateUser"/>
+            <class name="tests.DeleteUser"/>
+        </classes>
+    </test>
+</suite>
