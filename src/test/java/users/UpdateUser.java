@@ -3,6 +3,8 @@ package users;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+
+import org.hamcrest.core.Is;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -45,7 +47,11 @@ public class UpdateUser {
             .log().all()
             .assertThat()
             .statusCode(200)
-            .contentType(ContentType.JSON);
+            .contentType(ContentType.JSON)
+        	.body("name", Is.is("Naufal Az"))
+        	.body("email", Is.is("naufak3@gmail.com"))
+        	.body("gender", Is.is("male"))
+        	.body("status", Is.is("active"));
         
     }
 }

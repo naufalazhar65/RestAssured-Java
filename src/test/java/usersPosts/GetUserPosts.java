@@ -11,7 +11,7 @@ import static io.restassured.RestAssured.given;
 
 import java.io.File;
 
-public class getUserPosts {
+public class GetUserPosts {
 
     private String baseUrl = "https://gorest.co.in";
     private String bearerToken = "02a943da4b6b96018eb83cc86f19b89b48a1669fdf88944cb0563d3315a0948d";

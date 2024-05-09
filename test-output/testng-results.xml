@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-09T19:43:48 WIB" name="Default suite" finished-at="2024-05-09T19:43:49 WIB" duration-ms="974">
+  <suite started-at="2024-05-09T20:18:38 WIB" name="Default suite" finished-at="2024-05-09T20:18:39 WIB" duration-ms="968">
     <groups>
     </groups>
-    <test started-at="2024-05-09T19:43:48 WIB" name="Default test" finished-at="2024-05-09T19:43:49 WIB" duration-ms="974">
-      <class name="usersPosts.getUserPosts">
-        <test-method is-config="true" signature="setup()[pri:0, instance:usersPosts.getUserPosts@5c909414]" started-at="2024-05-09T19:43:48 WIB" name="setup" finished-at="2024-05-09T19:43:49 WIB" duration-ms="141" status="PASS">
+    <test started-at="2024-05-09T20:18:38 WIB" name="Default test" finished-at="2024-05-09T20:18:39 WIB" duration-ms="968">
+      <class name="users.GetUser">
+        <test-method is-config="true" signature="setup()[pri:0, instance:users.GetUser@5c909414]" started-at="2024-05-09T20:18:38 WIB" name="setup" finished-at="2024-05-09T20:18:38 WIB" duration-ms="152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createUserPostTest()[pri:0, instance:usersPosts.getUserPosts@5c909414]" started-at="2024-05-09T19:43:49 WIB" name="createUserPostTest" finished-at="2024-05-09T19:43:49 WIB" duration-ms="821" status="PASS">
+        <test-method signature="getUserTest()[pri:0, instance:users.GetUser@5c909414]" started-at="2024-05-09T20:18:38 WIB" name="getUserTest" finished-at="2024-05-09T20:18:39 WIB" duration-ms="806" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUserPostTest -->
-      </class> <!-- usersPosts.getUserPosts -->
+        </test-method> <!-- getUserTest -->
+      </class> <!-- users.GetUser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
